@@ -12,7 +12,6 @@ counter.innerText = count;
 // Number Gen
 const number = Math.floor(Math.random() * 90) + 11;
 let randNum = number.toString();
-console.log(randNum);
 
 // regex validation
 const validate = (input) => {
