@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1-100</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 class="main-header">1 - 100</h1>
+      <h2 class="main-sub">Guess the number:</h2>
+      <h3 class="counter-box">
+        Trys left:
+        <p id="counter"></p>
+      </h3>
+      <div class="input">
+        <form action="guessNum">
+          <input
+            type="number"
+            pattern="[0-9]*"
+            placeholder="Guess a number"
+            style="text-align: center"
+            id="guessbox"
+            min="1"
+            max="100"
+          />
+          <button id="submit">Guess!</button>
+        </form>
+      </div>
+      <div id="reset-btn-holder"><button class="reset-btn">Reset</button></div>
+      <div class="notification">
+        <p id="notification-text"></p>
+      </div>
+      <div class="dice-holder">
+        <ul class="dice"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
