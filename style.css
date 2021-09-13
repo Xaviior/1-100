@@ -94,3 +94,19 @@ li {
   height: 1.5rem;
   width: 1.5rem;
 }
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 3) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .main-container {
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 98vh;
+    background-color: rgb(205, 207, 188);
+  }
+}
