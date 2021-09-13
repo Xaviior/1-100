@@ -6,7 +6,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
   font-family: "Montserrat", sans-serif;
+  background-color: rgb(244, 243, 234);
 }
 
 .main-container {
