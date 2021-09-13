@@ -10,7 +10,7 @@ let count = 8;
 counter.innerText = count;
 
 // Number Gen
-const number = Math.floor(Math.random() * 90) + 11;
+const number = Math.floor(Math.random() * 100) + 1;
 let randNum = number.toString();
 
 // regex validation
